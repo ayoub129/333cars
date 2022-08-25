@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero .search {
+    position: absolute;
+    bottom: -2rem;
+    width: 90%;
+    background-color: white;
+}
+
+.hero .search input {
+    border: none;
+    outline: none;
+}
+
+.searchbtn {
+    background-color: white;
+}
