@@ -71,12 +71,12 @@ const User = require("../models/userModel")
    }
  })
 
- // @desc get current user
+// @desc get current user
 // @route /api/users/me
 // @access private
 
 const getMe = asyncHandler( async (req , res) => {
-   res.send('me')
+   
 })
 
 //  generate Token
